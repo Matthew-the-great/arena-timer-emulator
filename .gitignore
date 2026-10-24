@@ -1,0 +1,23 @@
+build/
+state.json
+*.log
+.tools/
+qemu/.pio/
+qemu/firmware/
+qemu/runtime/
+qemu-release.json
+# Private state and generated artifacts
+qemu/verification/
+public/uart-clear.json
+.env
+.env.*
+!.env.example
+*.bin
+*.elf
+*.exe
+*.dll
+*.map
+*.vcd
+*.pcap
+*.pcapng
+__pycache__/

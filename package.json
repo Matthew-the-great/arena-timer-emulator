@@ -1,0 +1,16 @@
+{
+  "name": "arena-timer-simulator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test test.mjs http.test.mjs qemu/led-frames.test.mjs qemu/guest-display.test.mjs",
+    "audit": "node scripts/audit.mjs",
+    "test:dashboard": "node --test qemu/led-frames.test.mjs qemu/guest-display.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "GPL-2.0-or-later"
+}
